@@ -1,0 +1,21 @@
+
+
+@media(max-width:1000px){
+    
+    .nav_items{
+        display: none;
+    }
+    .nav_itemsactive{
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #fff;
+        position: absolute;
+        width: 350px;
+        height: 60vh;
+        top: 150px;
+        right: 0;
+        z-index: 10;
+        
+    }
+}
+
